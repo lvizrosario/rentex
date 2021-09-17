@@ -2,9 +2,9 @@ import { v4 as uuidV4 } from 'uuid';
 
 class Category {
 
-  id?: String;
-  name: String;
-  description: String;
+  id?: string;
+  name: string;
+  description: string;
   created_at: Date;
 
   constructor() {
